@@ -1,0 +1,93 @@
+@charset "utf-8";/* CSS Document */
+::selection{
+	background: #C80000;/* Safari */
+	color:#FFF;
+	text-shadow:1px 1px 0px rgba(0,0,0,0.3);}
+	::-moz-selection{
+		background: #C80000;/* Mozilla */
+		color:#FFF;
+		text-shadow:1px 1px 0px rgba(0,0,0,0.3);}
+	.maxx-theme .nivo-controlNav a,ul.simple-drop-down-menu li,ul.simple-drop-down-menu li a{
+		/*transition:0.3s linear;-moz-transition:0.3s linear;-webkit-transition:0.3s linear;*/}
+	input[type='text'],input[type='password'],input.input-field, textarea{
+		background:#FFF url(../images/text-field-bg.png) top repeat-x;
+		background: -moz-linear-gradient(top, #f1f1f1 0%, #ffffff 100%);/* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f1f1f1), color-stop(100%,#ffffff));/* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, #f1f1f1 0%,#ffffff 100%);/* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, #f1f1f1 0%,#ffffff 100%);/* Opera 11.10+ */
+		background: -ms-linear-gradient(top, #f1f1f1 0%,#ffffff 100%);/* IE10+ */
+		background: linear-gradient(top, #f1f1f1 0%,#ffffff 100%);/* W3C */
+		-moz-box-shadow:0 1px 0 #FFF,0 1px 0 #FFF inset;box-shadow:0 1px 0 #FFF,0 1px 0 #FFF inset;
+		-webkit-box-shadow:0 1px 0 #FFF,0 1px 0 #FFF inset;
+		text-shadow:0 1px 0 #FFF;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;border-radius: 3px;}
+		button.black{
+			-moz-box-shadow:0 1px 0 #FFF;
+			box-shadow:0 1px 0 #FFF;
+			-webkit-box-shadow:0 1px 0 #FFF;
+			}
+		.border-radius-3px,.portfolio-main.filter li.current a,.page-pagination a,#sidebar .ads a,.btn-style{
+				-webkit-border-radius: 3px;
+				-moz-border-radius: 3px;border-radius: 3px;
+				}
+			.border-radius-5px{
+				-webkit-border-radius: 5px;
+				-moz-border-radius: 5px;border-radius: 5px;
+				}
+			.img-border{
+				padding:5px;
+				border:1px solid #e5e5e5;
+				background-color:#FFF;
+				-moz-box-shadow:0 2px 0 rgba(0,0,0,0.05);
+				box-shadow:0 2px 0 rgba(0,0,0,0.05);
+				-webkit-box-shadow:0 2px 0 rgba(0,0,0,0.05);}
+			#navigation-bar{
+				width:980px;
+				margin:0 auto;
+				height:40px;
+				background: -moz-linear-gradient(top, #ffffff 0%, #f3f3f3 100%);/* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f3f3f3));/* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top, #ffffff 0%,#f3f3f3 100%);/* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top, #ffffff 0%,#f3f3f3 100%);/* Opera11.10+ */
+				background: -ms-linear-gradient(top, #ffffff 0%,#f3f3f3 100%);/* IE10+ */
+				-moz-box-shadow:-1px -1px 0 #FFF inset, 0 1px 3px rgba(0,0,0,0.1);
+				-webkit-box-shadow:-1px -1px 0 #FFF inset, 0 1px 3px rgba(0,0,0,0.1);
+				box-shadow:-1px -1px 0 #FFF inset, 0 1px 3px rgba(0,0,0,0.1);}
+				.border-radius-left-5px{
+					-webkit-border-top-left-radius: 5px;
+					-webkit-border-bottom-left-radius: 5px;
+					-moz-border-radius-topleft: 5px;
+					-moz-border-radius-bottomleft: 5px;border-top-left-radius: 5px;
+					border-bottom-left-radius: 5px;}
+				.border-radius-left-3px{
+					-webkit-border-top-left-radius: 3px;
+					-webkit-border-bottom-left-radius:3px;
+					-moz-border-radius-topleft:3px;
+					-moz-border-radius-bottomleft: 3px;
+					border-top-left-radius: 3px;
+					border-bottom-left-radius:3px;}
+				ul.simple-drop-down-menu ul{
+					box-shadow:5px 5px 0 rgba(0,0,0,0.1);
+					-moz-box-shadow:5px 5px 0 rgba(0,0,0,0.1);
+					-webkit-box-shadow:5px 5px 0 rgba(0,0,0,0.1);}
+				.portfolio-main.filter li.current a{
+					-moz-box-shadow:0 1px 0 #FFF,0 1px 0 #FFF inset;
+					box-shadow:0 1px 0 #FFF,0 1px 0 #FFF inset;
+					-webkit-box-shadow:0 1px 0 #FFF,0 1px 0 #FFF inset;
+					}
+				#sidebar .ads a{
+					border-width:1px;
+					-moz-box-shadow:0 2px 0 rgba(0,0,0,0.05);
+					box-shadow:0 2px 0 rgba(0,0,0,0.05);
+					-webkit-box-shadow:0 2px 0 rgba(0,0,0,0.05);
+					}
+				.page-pagination a{
+					-moz-box-shadow:-1px -1px 0 #FFF inset,1px -1px 0 #FFF inset,0px 1px 3px rgba(0,0,0,0.05);
+					box-shadow:-1px -1px 0px #FFF inset,1px -1px 0 #FFF inset,0px 1px 3px rgba(0,0,0,0.05);
+					-webkit-box-shadow:-1px -1px 0 #FFF inset,1px -1px 0 #FFF inset,0px 1px 3px rgba(0,0,0,0.05);
+					text-shadow:0px 1px 0px #FFF;}
+				.page-pagination a:hover,.page-pagination a.current,a.btn-style:hover,a.btn-style.current,a.btn-style.red,a.btn-style.dark{
+					text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+					-moz-box-shadow:none;box-shadow:none;
+					-webkit-box-shadow:none;}

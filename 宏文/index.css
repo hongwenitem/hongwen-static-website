@@ -1,0 +1,95 @@
+*{
+	margin:0;
+	padding:0;
+	list-style: none;
+	text-decoration: none;
+	font-family: "微软雅黑";
+}
+body{
+	min-width: 960px;
+	max-height: 2280px;
+	background:url(img/beijing0.png) 0 0 repeat;
+}
+/*head-top*/
+.head-top{
+	width:1040px;
+	height:50px;
+	line-height: 50px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.head-top a{
+	color:#a5aaac;
+	font-size:18px;
+	font-weight: bold;
+}
+.head-top .left{
+	float:left;
+	width:300px;
+	overflow:hidden;
+}
+.head-top .right{
+	float:right;
+	max-width: 600px;
+	overflow: hidden;
+}
+.head-top .right a{
+	float:right;
+	font-size:16px;
+	color:white;
+	margin-right:20px;
+}
+.head-top .right a:hover,
+.head ul li a:hover{
+	color:#ffa500;
+}
+/*all*/
+.all{
+	width:1040px;
+	max-height: 2190px;
+	margin: 20px auto 0;
+	padding-bottom:20px;
+	background: #171a1e;
+	border:1px solid red;
+}
+/*head*/
+.head{
+	height:100px;
+	padding:0 20px;
+	background:url(img/beijing00.png) 0 0 repeat-x;
+	overflow: hidden;
+}
+.head h1{
+	float:left;
+}
+.head h1 img{
+	width:115px;
+	height:90px;
+}
+.head ul{
+	float:right;
+	max-width:760px;
+	height:50px ;
+	margin-left:80px;
+	padding-top:25px;
+	overflow: hidden;
+}
+.head ul li{
+	float:left;
+	height:50px;
+	line-height:50px; 
+	margin:0 15px;
+}
+.head ul li a{
+	font-size:18px;
+	font-weight: bold;
+	color: #949698;
+}
+/*bottom*/
+.bottom{
+	border:1px solid red;
+}
+.bottom ul{
+	height:100px;
+	border:1px solid red;
+}

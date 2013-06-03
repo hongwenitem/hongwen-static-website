@@ -52,14 +52,19 @@ form input.input-field,textarea{
 		width:980px;
 		margin:0 auto;
 	}
-	a.read-more{
-		background-position:-529px -53px;
+	.block a.read-more{
+		background:url(../images/sprite.png) -529px -53px;
+		text-indent:-9999px;
 		width:125px;
 		height:32px;
-		text-indent:-9999px;
+		line-height:32px;
+		text-align:center;
+		color:gray;
+		overflow:hidden;
+		margin-right:5px;
 	}
 	a.read-more:hover{
-		background-position:-529px -85px;
+		background:url(../images/sprite.png) -529px -85px;
 	}
 	ul.list li{display:list-item;}
 	ul.tweet li{padding-bottom:25px;}
@@ -177,14 +182,26 @@ form input.input-field,textarea{
 		width:960px;height:370px;position:absolute;z-index:2;top:0;left:0;}
 	.body-divider{background:url(../images/seperator-980.png) no-repeat center top;
 		padding-top:30px;}
-	.three-column .block{width:280px;float:left;margin-right:40px;}
-	.entry .block .content{min-height:310px;height:310px;}
-	#get-in-touch{background:url(../images/seperator-980-50-opa.png) no-repeat center top;
-		padding:80px 0 30px;}
-	#get-in-touch .via-phone-number{width:580px;}
-	#get-in-touch .via-phone-number .icon{background-position:-429px -53px;width:50px;
-			height:50px;text-indent:-9999px;margin-right:20px;}
-	#get-in-touch .via-phone-number h2{margin:3px 0 5px;}
+	.three-column .block{width:280px;height:450px;float:left;margin-right:40px;}
+	.entry .block .content{min-height:310px;height:310px;overflow:hidden;}
+	.entry .block .content p{
+		font-size:14px;
+		text-indent: 2em;
+		padding:5px 5px 8px 5px;
+	}
+	#get-in-touch{background:url(../images/seperator-980-50-opa.png) no-repeat center -40px;
+		margin-top:80px;overflow:hidden;}
+	#get-in-touch .via-phone-number h2{width:870px;margin:0 auto;float:left;margin-bottom:10px;}
+	#get-in-touch .via-phone-number strong{
+		font-size:20px;
+		color:#666;
+		padding:30px;
+	}
+	#get-in-touch .via-phone-number .icon{
+		background:url(../images/sprite.png) -429px -53px;
+		width:50px;
+		float:left;
+		height:50px;text-indent:-9999px;margin-right:20px;margin-bottom:10px;}
 	#get-in-touch .via-email{width:385px;}
 	#get-in-touch .via-email button{width:110px;}
 	#get-in-touch .via-email button em{width:15px;height:15px;
@@ -241,13 +258,19 @@ form input.input-field,textarea{
 	#footer-content .three-column .block .content .tweet p{margin:0 0 3px;}
 	#footer-content .three-column .block .content .latest-news li{margin-bottom:25px;}
 	#footer-extra-wrapper{
-		background:#181818;font-size:10px;text-transform:uppercase;color:#606060;padding:20px 0;}
+		background:#181818;font-size:10px;text-transform:uppercase;
+		color:#606060;padding:20px 0;}
 	#copyright ul li{
 		display:inline;margin-top:5px;float:left;overflow:hidden;
 		border-left:1px solid #333;padding:0 10px;}
-	#copyright ul li:first-child{border:none;}
+	#copyright .logo{
+		float:left;
+	}
+ 	#copyright ul li:first-child{border:none;}
 	#footer-extra-wrapper .logo{margin-right:15px;}
-	.back-to-top{float:right;cursor:pointer;background-position:-986px 4px;
+	.back-to-top{float:right;cursor:pointer;
+		background:url(../images/sprite.png) no-repeat -986px 4px;
+		/*background-position:-986px 4px;*/
 		padding:5px 60px 0 20px;}
 	.portfolio-main.filter li{
 		display:inline;text-align:right;margin:0 0 0 20px;}
@@ -335,4 +358,33 @@ form input.input-field,textarea{
 	#error-404,#error-404 *{text-align:center;}
 	#error-404 h1{font-size:130px;
 		background:url(../images/404-shadow.png) no-repeat center 110px;}
-	.float-left,.preloading-light img,.preloading-dark img,.img-border img,.entry .block a.read-more,#get-in-touch .via-email button span,.maxx-form textarea,.maxx-form input,.maxx-form button,ul.display-list-alternate li.odd a.read-more,.social-network-like-box > div{float:left;}.float-right,.portfolio-main.filter{float:right;}.overflow-hidden,.services .block .content,.entry-bottom > div{overflow:hidden;}ul.zigzag li strong,ul.display-list li h2,ul.display-list-alternate li h2{margin:0 0 10px;}ul.list.quote li a b,.calendar.white h1,ul.simple-drop-down-menu li.current ul li a,ul.simple-drop-down-menu li ul li:hover a,.blog-entry-content h3,.blog-entry-content h2 a,.blog-entry-content h1 a{color:#787878;}.flick-gallery li.reset-margin-right,.three-column .block.last-child,.three-column .block.last-child-of-line{margin-right:0;}.logo,.social-network,.social-network li a,ul.simple-drop-down-menu li a,#g-search button,#get-in-touch .via-phone-number .icon,.back-to-top,a.read-more,.flick-gallery li a,ul.zigzag li strong,ul.point li a,ul.point li a em,#content{display:block;}#header #banner .social-network li a img,#footer-content .three-column .block .content .latest-news li p,.post-author h3{margin-top:5px;}ul.simple-drop-down-menu li.current a,#footer-content a,#footer-content h3 strong,#footer-extra-wrapper a:hover{color:#FFF;}.three-column .block .content,.comment-content-wrapper > ul li .comment-content .comment-heading{margin-bottom:10px;}.header-text,.video-preview,.image-preview{position:relative;}.post .img-border,.personal-info input{margin-bottom:15px;}#copyright{overflow: hidden;}
+	.float-left,.preloading-light img,.preloading-dark img,.img-border img,.entry .block a.read-more,#get-in-touch .via-email button span,.maxx-form textarea,.maxx-form input,.maxx-form button,ul.display-list-alternate li.odd a.read-more,.social-network-like-box > div{float:left;}
+	.float-right,.portfolio-main.filter{float:right;}
+	.overflow-hidden,.services .block .content,.entry-bottom > div{overflow:hidden;}
+	ul.zigzag li strong,ul.display-list li h2,ul.display-list-alternate li h2{
+		margin:0 0 10px;}
+	ul.list.quote li a b,
+	.calendar.white h1,
+	ul.simple-drop-down-menu li.current ul li a,
+	ul.simple-drop-down-menu li ul li:hover a,.blog-entry-content h3,
+	.blog-entry-content h2 a,.blog-entry-content h1 a{color:#787878;}
+	.flick-gallery li.reset-margin-right,.three-column .block.last-child,
+	.three-column .block.last-child-of-line{margin-right:0;}
+	.logo,.social-network,.social-network li a,
+	ul.simple-drop-down-menu li a,#g-search button,
+	#get-in-touch .via-phone-number .icon,.back-to-top,
+	a.read-more,.flick-gallery li a,ul.zigzag li strong,ul.point li a,
+	ul.point li a em,#content{display:block;}
+	#header #banner .social-network li a img,
+	#footer-content .three-column .block .content .latest-news li p,
+	.post-author h3{margin-top:5px;}
+	ul.simple-drop-down-menu li.current a,
+	#footer-content a,#footer-content h3 strong,
+	#footer-extra-wrapper a:hover{color:#FFF;}
+	.three-column .block .content,
+	.comment-content-wrapper > ul li .comment-content .comment-heading{
+		margin-bottom:30px;}
+	.header-text,
+	.video-preview,.image-preview{position:relative;}
+	.post .img-border,.personal-info input{margin-bottom:15px;}
+	#copyright{overflow: hidden;zoom:1;}
